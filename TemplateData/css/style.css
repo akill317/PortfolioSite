@@ -1,4 +1,9 @@
-@import url('http://fonts.cdnfonts.com/css/pf-tempesta-five');
+@font-face {
+    font-family: 'PF Tempesta Five';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PF Tempesta Five'), url('pf_tempesta_five.woff') format('woff');
+}
 body{
 	margin:0px;
 	padding:0px;
@@ -97,7 +102,7 @@ body{
 #warningBrowserBlock,#warningMobileBlock,#errorContent{
 	margin-top:15vh;
 	color:#666666;
-	font-size:2.3vh;
+	font-size:2.3vw;
 }
 
 .browserIcons{
