@@ -53,11 +53,11 @@ body{
 }
 
 .logo{
-	height:25vh;
-	width:auto;
+	height:auto;
+	width:50vw;
 	display: block;
 	margin:auto;
-	margin-top:2vh;
+	margin-top:0vh;
 }
 
 #loadingBlock,#errorBrowserBlock{
@@ -83,7 +83,7 @@ body{
 
 #progressBar,#warningBrowserBlock,#warningMobileBlock,#errorContent{
 	height:25vh;
-	width:40vw;
+	width:25vw;
 	margin:auto;
 	text-align: center;
 }
