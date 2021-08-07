@@ -1,3 +1,4 @@
+@import url('http://fonts.cdnfonts.com/css/pf-tempesta-five');
 body{
 	margin:0px;
 	padding:0px;
@@ -6,8 +7,8 @@ body{
 	width:100%;
 	background-size:cover;
 	font-style: regular;
-	font-family:"Myriad Pro", Myriad,"Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-color:#f0f0f1;
+	font-family: 'PF Tempesta Five', sans-serif;
+	background-color:#2f2f2f;
 }
 
 .webgl-content,#loadingBlock,#errorBrowserBlock{
@@ -15,14 +16,14 @@ body{
 	position:absolute;
 	height:100vh;
 	width:100vw;
-	background-color:#f0f0f1;
+	background-color:#2f2f2f;
 }
 
 #gameContainer,canvas{
 	position:absolute;
 	height:100%;
 	width:100%;
-	background-color:#f0f0f1;
+	background-color:#2f2f2f;
 }
 
 #fullScreenButton{
@@ -60,7 +61,7 @@ body{
 }
 
 #loadingBlock,#errorBrowserBlock{
-	background-image:url("../img/background.png");
+	/*background-image:url("../img/background.png");*/
 	background-size:cover;
 }
 
