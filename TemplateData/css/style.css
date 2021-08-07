@@ -96,7 +96,7 @@ body{
 #progressBar{
 	height:8vh;
 	color:#666666;
-	font-size:4vh;
+	font-size:4vw;
 }
 
 #warningBrowserBlock,#warningMobileBlock,#errorContent{
@@ -115,7 +115,7 @@ body{
 }
 
 #errorContent{
-	font-size:3vh;
+	font-size:3vw;
 	margin-top:5vh;
 }
 
