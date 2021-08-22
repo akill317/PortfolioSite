@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Portfolio erenyx</title>
+    <title>Portfolio %UNITY_CUSTOM_MYTAG%</title>
     <link rel="shortcut icon" href="TemplateData/img/favicon.ico">
     <link rel="stylesheet" href="TemplateData/css/style.css">
     <script src="Build/UnityLoader.js"></script>
@@ -68,7 +68,7 @@
 			}	
 		}
 		
-		var gameInstance = UnityLoader.instantiate("gameContainer", "Build/PortfolioSite.json", {
+		var gameInstance = UnityLoader.instantiate("gameContainer", "%UNITY_WEBGL_BUILD_URL%", {
 			onProgress: UnityProgress,
 			compatibilityCheck:CheckCompatibility,
 			Module: {
